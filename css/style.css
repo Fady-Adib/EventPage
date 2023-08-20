@@ -1,0 +1,86 @@
+:root {
+
+
+
+
+}
+nav{
+width: 0%;
+overflow: hidden;
+
+}
+.home{
+    width:80%;
+}
+#home button {
+    background-color: transparent;
+    border: none;
+ 
+}
+
+.navBody {
+width: 0;
+        background-color: #111;
+
+overflow: hidden;
+padding:  2rem 0;
+    height: 100vh;
+}
+
+/* START NAV BAR */
+/* END NAV BAR */
+/* START HOME SECTION */
+#home {
+    background-image: url(/images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: 50%;
+}
+.linkNav{transition: all 1s;
+color: white;}
+.active{color: rgb(110, 25, 25) }
+
+.linkNav:hover{color: rgb(110, 25, 25);}
+.overLay {
+    background-color: rgba(235, 105, 105, 0.5);
+}
+
+/* END HOME SECTION */
+/* START duration SECTION */
+#duration h3{background-color: rgba(214, 46, 51, 0.6);;}
+
+#duration p {background-color: #ccc;
+overflow: hidden;
+display: none;
+padding: 1rem;
+}
+#duration .active {
+
+    display:block;
+        padding: 1rem;
+}
+
+
+
+/* END duration SECTION */
+/* START details SECTION */
+
+.details {
+    background-image: url(/images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform-origin: 50%;
+}
+
+
+
+/* END details SECTION */
+/* START CLIENT SECTION */
+/* END CLIENT SECTION */
+/* START PORTFOLIO SECTION */
+/* END PORTFOLIO SECTION */
+/* START BLOG SECTION */
+/* END CONTACT SECTION */
+/* START FOOTER */
+/* END FOOTER */
